@@ -1,0 +1,42 @@
+
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+.eslintcache
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# node-waf configuration
+.lock-wscript
+
+# App packaged
+dist
+
+#App packaged(Library)
+dist_library
+
+.idea
+npm-debug.log.*
+__snapshots__
+
+# Package.json
+package-lock.json
+
+# dotenv
+.env
+
+# Custom Files
+
+
+
+

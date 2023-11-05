@@ -1,0 +1,29 @@
+
+{
+    "extends": "./jsconfig.alias.json",
+    "compilerOptions": {
+        /* By doing module to commonJS, I can solve the browser compatibility problem for JS,
+        but it is not recommended cause it would stop tree-shaking */
+        "module": "esnext",
+        "target": "esnext",
+        "jsx": "react",
+        "pretty": true,
+        "strict": true,
+        /* Additional Checks */
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        /* Module Resolution Options */
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/node_modules/*", "dist", "**/dist/*"]
+}

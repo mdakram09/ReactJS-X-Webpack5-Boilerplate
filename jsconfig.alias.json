@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@app/*": ["./*", "./"],
+            "@src/*": ["./src/*", "./src/"],
+            "@actions/*": ["./src/actions/*", "./src/actions/"],
+            "@assets/*": ["./src/assets/*", "./src/assets/"],
+            "@common/*": ["./src/common/*", "./src/common/"],
+            "@components/*": ["./src/components/*", "./src/components/"],
+            "@atomicComponents/*": ["./src/components/atomic/*", "./src/components/atomic/"],
+            "@functionalComponents/*": [
+                "./src/components/functional/*",
+                "./src/components/functional/"
+            ],
+            "@structuralComponents/*": [
+                "./src/components/structural/*",
+                "./src/components/structural/"
+            ],
+            "@hookComponents/*": ["./src/components/hooks/*", "./src/components/hooks/"],
+            "@containers/*": ["./src/containers/*", "./src/containers/"],
+            "@exceptions/*": ["./src/Exceptions/*", "./src/Exceptions/"],
+            "@layout-config/*": ["./src/layout-config/*", "./src/layout-config/"],
+            "@routing/*": ["./src/routing/*", "./src/routing/"],
+            "@reducers/*": ["./src/reducers/*", "./src/reducers/"],
+            "@sagas/*": ["./src/sagas/*", "./src/sagas/"],
+            "@selectors/*": ["./src/selectors/*", "./src/selectors/"],
+            "@services/*": ["./src/services/*", "./src/services/"],
+            "@store/*": ["./src/store/*", "./src/store/"],
+            "@utils/*": ["./src/utils/*", "./src/utils/"],
+            "@theme/*": ["./src/utils/theme/*", "./src/utils/theme/"],
+            "@views/*": ["./src/views/*", "./src/views/"],
+        }
+    }
+}
