@@ -76,6 +76,13 @@ module.exports = {
 			node: {},
 			webpack: {
 				config: "./webpack.config.alias.js"
+			},
+			alias: {
+				map: [
+					["@components", "./src/components"] // Adjust the path as needed
+					// Add more alias mappings if needed
+				],
+				extensions: [".js", ".jsx"] // Specify the file extensions you use
 			}
 		},
 		"import/core-modules": [

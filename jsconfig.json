@@ -1,4 +1,3 @@
-
 {
     "extends": "./jsconfig.alias.json",
     "compilerOptions": {
